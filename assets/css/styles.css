@@ -14,7 +14,7 @@
     /*Fuente y tipografia */
     --body-font:'Poppins', sans-serif;
     --normal-font-size: 1rem;
-    --smal-font-size: .875rem;
+    --small-font-size: .875rem;
 
     /*z index*/
     --z-fixed: 100;
@@ -112,7 +112,7 @@ a {
 }
 
 .nav_name {
-    font-size: var(--smal-font-size);
+    font-size: var(--small-font-size);
 }
 
 /* Expander menu */
@@ -147,10 +147,10 @@ a {
 
 .collapse__sublink {
     color:var(--sub-color);
-    font-size: var(--smal-font-size);
+    font-size: var(--small-font-size);
 }
 
-.collapse_sublink:hover{
+.collapse__sublink:hover{
     color:var(--white-color);
 }
 
