@@ -12,6 +12,7 @@
     </head>
 
     <body id="body-pd">
+        <!-- Side bar -->
         <div class="l-navbar" id="navbar">
             <nav class="nav">
                 <div>
@@ -20,9 +21,14 @@
                         <a href="#" class="nav__logo">CMS Edge-N</a>
                     </div>
                     <div class="nav__list">
-                        <a href="#" class="nav__link active">
+                        <a id="dashboard" onclick="zzz()" class="nav__link active">
                             <ion-icon name="home-outline" class="nav__icon"></ion-icon>
                             <span class="nav_name">Dashboard</span>
+                            <script>
+                                function zzz(){
+                                    document.getElementById("content").style.color = "red";
+                                }
+                            </script>
                         </a>
 
                         <a href="#" class="nav__link">
@@ -74,7 +80,10 @@
                 </div>
             </nav>
         </div>
-        <h1>Components</h1>
+        <!-- Page Content -->
+        <div id = "content">
+            <h1>Components</h1>
+        </div>
         <!-- IONICONS -->
         <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
         <!-- JS -->
