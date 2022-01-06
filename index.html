@@ -9,6 +9,8 @@
         <link rel="stylesheet" href="assets/css/styles.css">
 
         <title>CMS Edge-N</title>
+        
+        <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
     </head>
 
     <body id="body-pd">
@@ -24,9 +26,9 @@
                         <a id="dashboard" onclick="zzz()" class="nav__link active">
                             <ion-icon name="home-outline" class="nav__icon"></ion-icon>
                             <span class="nav_name">Dashboard</span>
-                            <script>
+                            <script type="text/javascript">
                                 function zzz(){
-                                    document.getElementById("content").style.color = "red";
+                                     $('#content').load("sample.html");
                                 }
                             </script>
                         </a>
